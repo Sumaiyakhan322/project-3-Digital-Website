@@ -3,8 +3,10 @@
     margin: 0;
     padding: 0;
 }
-btn{
-    padding: 20px 35px;
+.btn{
+    padding: 18px 35px;
+    font-size: 16px;
+    
 }
 a{
     text-decoration: none;
@@ -34,3 +36,44 @@ nav{
     gap: 18px;
     font-size: 18px;
 }
+/* Banner section */
+.banner{
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0, 0, 0, 0.399),rgba(0, 0, 0, 0.371));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+.banner-content{
+    width: 55%;
+    color: white;
+    text-align: center;
+}
+.banner-title{
+    font-size: 75px;
+
+}
+.banner-title span{
+   color: red;
+}
+.banner-description{
+    font-size: 24px;
+    margin: 25px 0px;
+}
+.btn-primary{
+    color: white;
+    background-color: red;
+    border: none;
+    margin-right: 10px;
+}
+    
+
+
+
