@@ -11,9 +11,7 @@
 a{
     text-decoration: none;
 }
-li{
-    list-style: none;
-}
+
 
 
 /* Navigation */
@@ -35,6 +33,9 @@ nav{
     display: flex;
     gap: 18px;
     font-size: 18px;
+}
+.nav-menus ul li{
+    list-style: none;
 }
 /* Banner section */
 .banner{
@@ -58,10 +59,9 @@ nav{
 }
 .banner-title{
     font-size: 75px;
-
 }
 .banner-title span{
-   color: red;
+    color: red;
 }
 .banner-description{
     font-size: 24px;
@@ -73,7 +73,101 @@ nav{
     border: none;
     margin-right: 10px;
 }
+/* Services section */
+.service{
+    height: 100vh;
+    padding: 40px 80px;
+    background-image: url('./asset/image/footer-bg.png'),linear-gradient(rgba(0, 0, 0, 0.945),rgba(0, 0, 0, 0.918));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-align: left;
     
+   
+    
+}
+.service-img{
+    width: 80px;
+}
+.service-content{
+    width: 43%;
+padding-right: 80px;
+}
+
+    
+    
+.img-title{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-title h4{
+   font-size: 20px;
+   margin-top: 18px;
+}
+.frist-row{
+    display: flex;
+}
+.author-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.service-btn{
+    padding: 16px 45px;
+    border-radius: 28px;
+    font-size: 18px;
+    
+}
+.service-content h3{
+   font-size: 40px;
+   margin: 15px 0px;
+}
+.service-content p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+}
+.service-content ol{
+    
+    padding: 0;
+    list-style-position: inside;
+    font-size: 18px;
+    
+}
+
+
+.author-details{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+   
+    
+}
+.author-des{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    border-right: 2px solid red;
+    justify-content: space-between;
+    padding-right: 80px;
+    margin-right: 20px;
+   
+}
+
 
 
 
