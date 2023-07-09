@@ -61,7 +61,7 @@ nav{
     font-size: 75px;
 }
 .banner-title span{
-    color: red;
+    color: rgb(245, 44, 44);
 }
 .banner-description{
     font-size: 24px;
@@ -69,14 +69,14 @@ nav{
 }
 .btn-primary{
     color: white;
-    background-color: red;
+    background-color:rgb(245, 44, 44);
     border: none;
     margin-right: 10px;
 }
 /* Services section */
 .service{
     height: 100vh;
-    padding: 40px 80px;
+    padding: 120px 80px;
     background-image: url('./asset/image/footer-bg.png'),linear-gradient(rgba(0, 0, 0, 0.945),rgba(0, 0, 0, 0.918));
     background-blend-mode: overlay;
     background-position: center;
@@ -161,12 +161,54 @@ padding-right: 80px;
     align-items: center;
     gap: 20px;
     
-    border-right: 2px solid red;
+    border-right: 2px solid rgb(245, 44, 44);
     justify-content: space-between;
-    padding-right: 80px;
-    margin-right: 20px;
+     padding-right: 80px;
+    margin-right: 20px; 
    
 }
+/* contact section */
+.contact{
+    background-image:url('./asset/contact-bg.jpg');
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+     padding: 20px 60px; 
+    border-radius: 20px;
+    margin-top: -90px;
+
+}
+.contact-phone{
+    display: flex;
+    align-items: center;
+   
+    
+    border-right: 2px solid white;
+    padding: 10px;
+   
+    
+}
+.contact-description{
+    width: 45%;
+}
+
+.contact-icon-des h5{
+    font-size: 12px;
+}
+.contact-icon-des h1{
+    font-size: 32px;
+}
+.contact-btn button{
+    font-size: 15px;
+}
+.contact-icon img{
+    padding: 10px;
+    width: 100px;
+}
+
 
 
 
